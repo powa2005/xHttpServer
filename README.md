@@ -1,6 +1,6 @@
 # xHttpServer: a command-line http server
 
-`xHttpServer` 是一款简单的命令行httpserver工具，主要用于日常开发调试，已经nodejs工具开发学习.
+`xHttpServer` 是一款简单的命令行httpserver工具，主要用于日常开发调试，以及nodejs工具开发学习.
 
 
 # 全局安装:
