@@ -5,7 +5,7 @@
 
 # 全局安装:
 
-     npm install xHttpServer -g
+     npm install xhttpserver -g
 
 
 ## 使用:
