@@ -1,15 +1,20 @@
 {
-  "name": "xHttpServer",
+  "name": "xhttpserver",
   "version": "0.0.6",
   "description": "A simple command-line http server",
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git@github.com:powa2005/xHttpServer.git"
+  },
+  "author": {
+    "name": "powa2005",
+    "email": "powa2005@163.com"
   },
   "keywords": [
     "cli",
-    "command"
+    "command",
+    "http server"
   ],
   "scripts": {
     "start": "node ./bin/xHttpServer",
@@ -32,5 +37,10 @@
     "xHttpServer": "./bin/xHttpServer",
     "xhs": "./bin/xHttpServer"
   },
+  "dist": {
+    "shasum": "",
+    "tarball": "https://registry.npmjs.org/xHttpServer/-/xHttpServer-0.0.6.tgz"
+  },
+  "homepage": "https://github.com/powa2005/xHttpServer",
   "directories": {}
 }
