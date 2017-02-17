@@ -1,0 +1,36 @@
+{
+  "name": "xHttpServer",
+  "version": "0.0.6",
+  "description": "A simple command-line http server",
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "cli",
+    "command"
+  ],
+  "scripts": {
+    "start": "node ./bin/xHttpServer",
+    "test": "node ./lib/",
+    "clean": "rm -rf lib",
+    "compile": "node ./node_modules/babel-cli/bin/babel.js -d lib/ src/"
+  },
+  
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "optimist": "0.6.x"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-preset-nodejs6-es6": "^1.0.1"
+  },
+  "license": "MIT",
+  "preferGlobal": "true",
+  "bin": {
+    "xHttpServer": "./bin/xHttpServer",
+    "xhs": "./bin/xHttpServer"
+  },
+  "directories": {}
+}

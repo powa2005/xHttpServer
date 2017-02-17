@@ -1,0 +1,30 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var optimist = require('optimist');
+var xHttpServer = require('../lib/index.js');
+
+
+var argv = optimist.argv;
+
+if (argv.h || argv.help) {
+  console.log([
+    'usage: xHttpServer [options]',
+    '',
+    'options:',
+    '  -p           Port to use [8080]',
+    '',
+    '  -h --help    Print this list and exit.'
+  ].join('\n'));
+  process.exit();
+}
+
+
+
+
+var PORT = argv.p || 8080;
+
+xHttpServer(PORT);
+
+
